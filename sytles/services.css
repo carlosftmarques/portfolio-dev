@@ -1,0 +1,38 @@
+#services {
+	background-color: var(--gray-100);
+}
+
+.services-title {
+	font: var(--subtitle);
+	color: var(--red);
+}
+
+.services-desc {
+	font: var(--title-md);
+	color: var(--gray-600);
+}
+
+.items {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 24px;
+}
+
+.item {
+	display: grid;
+	text-align: left;
+	border: 2px solid var(--gray-200);
+	border-radius: 12px;
+	padding: 20px;
+}
+
+.item-title {
+	font: var(--title-sm);
+	color: var(--gray-600);
+	padding: 20px 0 8px 0;
+}
+
+.item-desc {
+	font: var(--text-sm);
+	color: var(--gray-500);
+}
