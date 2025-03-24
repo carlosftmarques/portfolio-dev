@@ -1,5 +1,6 @@
 #intro {
 	background-image: url(../assets/images/background_intro.png);
+	background-size: cover;
 }
 
 #intro header {
@@ -20,18 +21,18 @@
 	align-items: center;
 }
 
-.intro-name {
+.intro-title {
 	font: var(--subtitle);
 }
 
-.intro-name span {
+.intro-title span {
 	color: var(--red);
 }
 
-.intro-position {
+.intro-desc {
 	font: var(--title-lg);
 }
 
-.intro-desc {
+.intro-sub {
 	font: var(--text-sm);
 }

@@ -1,0 +1,40 @@
+#contacts {
+	background-image: url(../assets/images/background_contacts.png);
+	background-size: cover;
+}
+
+.contacts-title {
+	font: var(--subtitle);
+	color: var(--purple);
+}
+
+.contacts-desc {
+	font: var(--title-md);
+	color: var(--gray-600);
+}
+
+.contacts-sub {
+	font: var(--text-md);
+	color: var(--gray-500);
+}
+
+.links {
+	display: grid;
+	gap: 16px;
+	width: 400px;
+}
+
+.links > div {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	background-color: var(--gray-300);
+	border-radius: 8px;
+	padding: 20px;
+	text-align: left;
+}
+
+.links > div a {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
