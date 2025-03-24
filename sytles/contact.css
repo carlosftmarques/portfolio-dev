@@ -3,6 +3,10 @@
 	background-size: cover;
 }
 
+#contacts > .container {
+	padding-block: 128px 200px;
+}
+
 .contacts-title {
 	font: var(--subtitle);
 	color: var(--purple);
@@ -11,11 +15,13 @@
 .contacts-desc {
 	font: var(--title-md);
 	color: var(--gray-600);
+	padding-block: 8px;
 }
 
 .contacts-sub {
 	font: var(--text-md);
 	color: var(--gray-500);
+	padding-block: 0 48px;
 }
 
 .links {
