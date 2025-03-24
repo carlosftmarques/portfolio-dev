@@ -1,0 +1,34 @@
+#intro {
+	background-image: url(../assets/images/background_intro.png);
+}
+
+#intro header {
+	width: 680px;
+}
+
+.tags {
+	display: flex;
+	gap: 10px;
+}
+
+.tag {
+	display: flex;
+	gap: 3px;
+	align-items: center;
+}
+
+.intro-name {
+	font: var(--subtitle);
+}
+
+.intro-name span {
+	color: var(--red);
+}
+
+.intro-position {
+	font: var(--title-lg);
+}
+
+.intro-desc {
+	font: var(--text-sm);
+}
