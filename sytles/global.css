@@ -46,3 +46,7 @@ body {
 	place-content: center;
 	place-items: center;
 }
+
+img {
+	max-width: 100%;
+}
